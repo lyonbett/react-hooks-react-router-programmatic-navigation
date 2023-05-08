@@ -5,7 +5,7 @@ const linkStyles = {
   width: "100px",
   padding: "12px",
   margin: "0 6px 6px",
-  background: "blue",
+  background: "purple",
   textDecoration: "none",
   color: "white",
 };
@@ -53,7 +53,7 @@ function Navbar({ setIsLoggedIn }) {
       >
         Login
       </NavLink>
-      <button onClick={handleLogout}>Logout</button>
+      <button style={{cursor:"pointer"}} onClick={handleLogout}>Logout</button>
     </div>
   );
 }
